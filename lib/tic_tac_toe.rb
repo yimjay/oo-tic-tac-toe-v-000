@@ -83,4 +83,8 @@ class TicTacToe
     won? || draw?
   end
   
+  def winner
+    won?[0]
+  end
+  
 end
